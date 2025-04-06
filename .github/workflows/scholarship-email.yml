@@ -2,7 +2,7 @@ name: Daily Scholarship Email
 
 on:
   schedule:
-    - cron: '55 19 * * *' # runs every day at 8AM UTC
+    - cron: '00 20 * * *' # runs every day at 8AM UTC
   workflow_dispatch: # allows you to trigger manually if needed
 
 jobs:
@@ -26,4 +26,4 @@ jobs:
           GMAIL_SENDER_EMAIL: ${{ secrets.GMAIL_SENDER_EMAIL }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           RECEIVER_EMAIL: ${{ secrets.RECEIVER_EMAIL }}
-        run: python main.py
+        run: python "Scholarship Scraper/main.py"
