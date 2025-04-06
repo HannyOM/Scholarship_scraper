@@ -2,7 +2,7 @@ name: Daily Scholarship Email
 
 on:
   schedule:
-    - cron: '39 19 * * *' # runs every day at 8AM UTC
+    - cron: '50 19 * * *' # runs every day at 8AM UTC
   workflow_dispatch: # allows you to trigger manually if needed
 
 jobs:
