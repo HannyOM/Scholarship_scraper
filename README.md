@@ -1,2 +1,2 @@
 # Scholarship_scraper
-Web scraping for the latest foreign scholarships and forwarding to gmail address
+Automated web scraping for the latest foreign scholarships and forwarding to gmail address.
